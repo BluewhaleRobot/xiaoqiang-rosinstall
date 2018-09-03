@@ -1,6 +1,6 @@
 # ROS Installs
 
-此软件源包含了小强相关的rosinstall文件。方便用户通过wstool工具对自己的工作空间进行管理。比如软件的更新。恢复出厂软件设置等等。
+此软件源包含了小强相关的rosinstall文件。方便用户通过wstool工具对自己的工作空间进行管理。比如软件的更新,恢复出厂软件设置等等。
 
 ## 文件说明
 
@@ -28,7 +28,7 @@ wstool init
 cd ~/Documents
 git clone https://github.com/bluewhalerobot/xiaoqiang-rosinstall.git
 cd catkin_ws/src
-# 此处以xiaoqiang xq4 pro 的工作空间为例。请根据你的版本选择不同的rosintall文件
+# 此处以xiaoqiang xq4 pro 的工作空间为例。请根据你的版本选择不同的rosinstall文件
 wstool merge ~/Documents/xiaoqiang-rosinstall/xq4-pro.rosinstall
 ```
 
