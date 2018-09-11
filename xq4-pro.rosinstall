@@ -56,13 +56,9 @@
     uri: https://github.com/BluewhaleRobot/galileo_serial_server.git
     version: master
 - git:
-    local-name: geometry
-    uri: https://github.com/ros/geometry.git
-    version: indigo-devel
-- git:
     local-name: geometry2
     uri: https://github.com/ros/geometry2
-    version: indigo-devel
+    version: kinetic-devel
 - git:
     local-name: hector_compressed_map_transport
     uri: https://github.com/BlueWhaleRobot/hector_compressed_map_transport.git
